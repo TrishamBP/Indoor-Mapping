@@ -1,0 +1,105 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+}
+
+#content {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 150px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 80%;
+}
+.controls {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 150px;
+
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 80%;
+  margin-top: 100px;
+}
+.change-floor {
+  width: 150px;
+}
+.information {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 80%;
+  margin-top: 200px;
+}
+
+.information b {
+  font-size: large;
+}
+
+.status {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.label {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.coordinate {
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 400px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indoor Mapping</title>
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <div id="content">
+      <p>Developed by AppZoy Technology.</p>
+    </div>
+    <div class="controls">
+      <a href="floor2.html">
+        <button class="change-floor">Change Floor</button>
+      </a>
+    </div>
+    <div class="information">
+      <p>
+        <b>Forbes Marshall</b><br />
+        Floor 1
+      </p>
+    </div>
+    <div class="label">
+      <label>Choose a bot:</label>
+      <select name="cars" id="bots">
+        <option value="bot1">Bot1</option>
+        <option value="bot2">Bot2</option></select
+      ><br />
+      <label>Choose Bot Status:</label>
+      <select name="cars" id="botsstatus">
+        <option value="red">Loaded</option>
+        <option value="green">Unloaded</option>
+      </select>
+    </div>
+    <div class="coordinate">
+      <form id="form">
+        <label for="fname">X coordinate:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="fname">X coordinate Final:</label><br />
+        <input type="text" id="fnamef" name="fnamef" /><br />
+        <label for="lname">Y coordinate:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="lname">Y coordinate Final:</label><br />
+        <input type="text" id="lnamef" name="lnamef" /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+    <div id="map"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/socket.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="leaflet-src.js"></script>
+    <script src="../leaflet-indoor.js"></script>
+    <script src="floorplan-js/map.js"></script>
+  </body>
+</html>
